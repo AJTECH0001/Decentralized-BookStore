@@ -1,5 +1,7 @@
-// SPDX-License-Identifier: UNLICENSED
+      
 pragma solidity ^0.8.19;
+
+import {BookStore} from "./BookStore.sol";
 
 contract AdvancedBookStore is BookStore {
     mapping(uint256 => bool) public bestsellers;
